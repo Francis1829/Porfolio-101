@@ -19,7 +19,7 @@ function Intro() {
             My Portfolio
           </div>
           <div className=" uppercase text-center m-5">
-            <div className=' border-b-2 font-semibold font-[gresan] text-[1.5rem] lg:text-[2.5rem] tracking-wider'>Francis mar b. subsilica</div>
+            <div className=' border-b-2 font-semibold font-[gresan] text-[1.3rem] lg:text-[2.5rem] tracking-wider'>Francis mar b. subsilica</div>
             <div className='font-[grotesk] text-sm lg:text-base'>Web Developer</div>
           </div>
           <div className="lg:text-xl text-sm m-5 mx-10 font-[grotesk] text-center">Hello, I'm a web developer dedicated to crafting responsive and user-friendly websites. With a strong foundation in programming and design, I excel at meeting diverse content needs. As a detail-oriented professional, I am eager to contribute my skills. Join me down below, and let's get cracking!</div>
