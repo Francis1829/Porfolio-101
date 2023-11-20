@@ -15,7 +15,7 @@ function AboutMe() {
           </div>
           <div className=" flex lg:flex-row flex-col lg:justify-around justify-center">
             <div className="flex flex-col items-center w-auto lg:w-[70%] m-5">
-              <div className="text-xl m-10 mx-10 font-[grotesk] text-center">
+              <div className="lg:text-xl text-base lg:m-10 m-3 mx-10 font-[grotesk] text-center">
                 Hello, I'm Francis Mar Bulusan Subsilica, but my friends call me
                 Ikko. During my free time, you'll often find me immersed in
                 anime or whipping up my favorite dishes in the kitchen. I'm a

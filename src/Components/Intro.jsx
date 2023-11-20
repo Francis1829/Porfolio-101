@@ -3,6 +3,9 @@ import Me from '../assets/ME2.png'
 import { FaArrowRight } from "react-icons/fa";
 
 function Intro() {
+  const HandleClick = () => {
+    window.location.href = 'mailto:francissubsilica.fms@gmail.com'
+  }
   return (
     <>
     <div className="bg relative top-0 w-full  h-screen z-10 bg-[url('../src/assets/Unsplash5.jpg')] bg-center bg-cover bg-no-repeat">
@@ -21,7 +24,7 @@ function Intro() {
           </div>
           <div className="lg:text-xl text-sm m-5 mx-10 font-[grotesk] text-center">Hello, I'm a web developer dedicated to crafting responsive and user-friendly websites. With a strong foundation in programming and design, I excel at meeting diverse content needs. As a detail-oriented professional, I am eager to contribute my skills. Join me down below, and let's get cracking!</div>
           <div className="bttn text-sm lg:text-lg font-[grotesk] lg:m-10 m-4">
-            <button className='lg:px-7 px-5 lg:py-3 py-1 mx-3 flex items-center border border-white rounded-md hover:bg-white  hover:text-black duration-300 ease-in-out'>Connect with me!<span className='mx-2'><FaArrowRight /></span></button>
+            <button onClick={HandleClick} className='lg:px-7 px-5 lg:py-3 py-1 mx-3 flex items-center border border-white rounded-md hover:bg-white  hover:text-black duration-300 ease-in-out'>Connect with me!<span className='mx-2'><FaArrowRight /></span></button>
           </div> 
         </div>
         <div className="ikmg lg:w-[50%] w-auto flex justify-center items-center mb-10">

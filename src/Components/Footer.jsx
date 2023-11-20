@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { BsGithub } from "react-icons/bs";
 
 function Footer() {
   const MenuList = [
@@ -33,23 +34,27 @@ function Footer() {
     },
     {
       Icon: <AiFillInstagram className="text-[35px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
-      Link: "https://www.facebook.com/akofrancisko/",
+      Link: "https://www.instagram.com/cisciretsit/",
     },
     {
       Icon: <FaLinkedinIn className="text-[35px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
-      Link: "https://www.facebook.com/akofrancisko/",
+      Link: "https://www.linkedin.com/in/francis-mar-subsilica-659b76276/",
     },
     {
       Icon: <FaTwitter className="text-[35px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
-      Link: "https://www.facebook.com/akofrancisko/",
+      Link: "https://twitter.com/franciskoysssss",
+    },
+    {
+      Icon: <BsGithub className="text-[35px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Link: "https://github.com/Francis1829",
     },
   ];
   return (
     <>
       <div className="bg-black relative text-white">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="flex p-10 justify-around relative z-10">
-          <div className="flex flex-col p-3 lg:w-[30%] w-auto ">
+        <div className="flex p-10 flex-wrap justify-around relative z-10">
+          <div className="md:cursor-pointer flex flex-col lg:items-start items-center  p-3 lg:w-[30%] w-auto ">
             <img src={Logo} alt="Logo" className="w-[95px]" />
             <div className="font-semibold">Portfolio | Francis Mar Subsilica</div>
           </div>
@@ -58,7 +63,7 @@ function Footer() {
             {MenuList.map((item) => (
               <ul className="flex mb-2 mx-1 font-[grotesk] lg:text-lg text-basse">
                 <li className="hover:underline">
-                  <Link to={item.Link}>{item.Name}</Link>   
+                  <Link to={item.Paths}>{item.Name}</Link>   
                 </li>
               </ul>
             ))}

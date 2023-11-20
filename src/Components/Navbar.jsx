@@ -6,6 +6,9 @@ import { IoClose } from "react-icons/io5";
 import { FaBars } from "react-icons/fa6";
 
 function Navbar() {
+    const Connect = () => {
+        window.location.href = 'mailto:francissubsilica.fms@gmail.com'
+      }
     const [scroll, setScroll] = useState(false)
     const ChangeColor = () => {
         if (window.scrollY >= 80) {
@@ -62,20 +65,20 @@ const [click, setClick] = useState(false);
                 </ul>
             ))}        
              </div>
-             <div className="btnn text-white lg:block hidden">
+             <div onClick={Connect} className="btnn text-white lg:block hidden">
                 <button className='px-7 py-3 border border-white rounded-md hover:bg-white  hover:text-black duration-300 ease-in-out'>Let's Connect!</button>
              </div>
 
              <div className={`lg:hidden flex flex-col items-start z-50 bg-[url('../src/assets/Bg-theme.png')] bg-black absolute w-full top-12 pl-3 py-10 h-[660px] overflow-y-auto transition-all ${click ? "left-0" : "left-[-100%]"} duration-500`}>
-            {MenuList.map((list) => (
+            {MenuList.map((list, i) => (
                 <ul className='text-white mx-3 text-xl font-medium tracking-wide md:cursor-pointer '>
-                    <li className='opacity-75 hover:opacity-100 active:opacity-100 py-2'>
+                    <Link to={list.Paths}><li key={i} className='opacity-75 hover:opacity-100 active:opacity-100'>
                         {list.Name}
-                    </li>
+                    </li></Link>
                 </ul>
             ))}   
               <div className="btnn  text-white">
-                <button id='Contact' className='px-7 py-3 mx-3 border border-white rounded-md hover:bg-white  hover:text-black duration-300 ease-in-out'>Let's Connect!</button>
+                <button onClick={Connect} id='Contact' className='px-7 py-3 mx-3 border border-white rounded-md hover:bg-white  hover:text-black duration-300 ease-in-out'>Let's Connect!</button>
              </div>
              </div>
         </nav>
