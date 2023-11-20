@@ -1,0 +1,50 @@
+#root {
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../src/assets/Bg-theme.png);
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: grotesk ;
+  src: url(../src/assets/fonts/grotesk.ttf);
+}
+@font-face {
+  font-family: gresan ;
+  src: url(../src/assets/fonts/Gresan.otf);
+}
+@font-face {
+  font-family: satisfy ;
+  src: url(../src/assets/fonts/Satisfy.ttf);
+}
+
+.bg{
+  -webkit-mask-image: linear-gradient(to top, transparent 8%, #000000 100%);
+  mask-image: linear-gradient(to top, transparent 20%, black 100%);
+}
+
+.bttn:hover span{
+  margin-left: 17px;
+  transition: .3s all ease-in-out;
+}
+nav{
+  background-image: linear-gradient(180deg,#121b23 -20%,rgba(255,255,255,0) 95%);
+}
+
+
+.scroll{
+  background-color: #000000;
+  transition: .4s all ease-in-out;
+}
+
+.hide{
+  opacity: 0;
+}
+
+.pic:hover .hide{
+  opacity: 1;
+  transition: all .5s ease-in-out;
+}
