@@ -9,13 +9,15 @@ function Education() {
           <div className="bttn text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
             Education & Work Expercience
           </div>
-          <div className=" flex lg:flex-row flex-col lg:justify-around justify-center font-[grotesk] text-base lg:text-lg">
-            <ul className="flex flex-col list-disc m-1 ">
+          <div className=" flex xl:flex-row flex-col lg:justify-around justify-center font-[grotesk] text-base md:text-lg lg:text-xl xl:items-start items-center">
+          <div className='m-1 w-[70%] '>
+          <ul className="flex flex-col list-disc m-1 ">
                 <li className='lg:text-2xl text-xl my-2'> Bachelor of Science in Computer Science</li>
                 <div>Isabela State University - Cauayan Campus</div>
                 <div>(2016 - 2019)</div>
             </ul>
-            <div className='m-1'>
+            </div>
+            <div className='m-1 w-[70%]'>
             <ul className=' list-disc '>
                 <li className='lg:text-2xl text-xl my-2'>On The Job Training</li>
                 <div>College of Computing Studies, Information and Communication Technology</div>

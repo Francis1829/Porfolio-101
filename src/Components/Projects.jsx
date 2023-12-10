@@ -21,8 +21,8 @@ function Projects() {
           <div className="text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
             Projects
           </div>
-          <div className=" flex lg:flex-row flex-col lg:justify-start justify-center">
-            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto m-5 bg-[#ededed] p-3 rounded-md">
+          <div className=" flex xl:flex-row flex-col lg:justify-start justify-center items-center">
+            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px]  m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project1}
                 alt="Project"
@@ -57,7 +57,7 @@ function Projects() {
                 </div>
               </Link>
             </div>
-            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto m-5 bg-[#ededed] p-3 rounded-md">
+            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px] m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project2}
                 alt="Project"
@@ -100,7 +100,7 @@ function Projects() {
                 </div>
               </Link>
             </div>
-            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto m-5 bg-[#ededed] p-3 rounded-md">
+            <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px] m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project3}
                 alt="Project"

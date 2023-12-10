@@ -13,9 +13,9 @@ function AboutMe() {
           <div className="bttn text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
             About Me
           </div>
-          <div className=" flex lg:flex-row flex-col lg:justify-around justify-center">
+          <div className=" flex xl:flex-row flex-col xl:justify-around justify-center items-center ">
             <div className="flex flex-col items-center w-auto lg:w-[70%] m-5">
-              <div className="lg:text-xl text-base lg:m-10 m-3 mx-10 font-[grotesk] text-center">
+              <div className="lg:text-xl md:text-lg text-base lg:m-10 m-3 mx-10 font-[grotesk] text-center">
                 Hello, I'm Francis Mar Bulusan Subsilica, but my friends call me
                 Ikko. During my free time, you'll often find me immersed in
                 anime or whipping up my favorite dishes in the kitchen. I'm a
@@ -24,7 +24,7 @@ function AboutMe() {
                 of your location, I'm here to help you build a stunning website.
                 Let's work together to bring your online presence to life!
               </div>
-              <div className="bttn text-sm lg:text-lg font-[grotesk] lg:m-10 m-4 relative z-30">
+              <div className="bttn text-base lg:text-xl md:text-lg font-[grotesk] lg:m-10 m-4 relative z-30">
               <a href={Resume} download={Resume}>  <button className="lg:px-7 px-5 lg:py-3 py-1 mx-3 flex items-center border border-black rounded-md hover:bg-black  hover:text-white duration-300 ease-in-out">
                   Download CV
                   <span className="mx-2">

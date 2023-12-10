@@ -53,7 +53,7 @@ function Footer() {
     <>
       <div className="bg-black relative text-white">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="flex p-10 flex-wrap justify-around relative z-10">
+        <div className="flex p-10 xl:flex-row lg:flex-row flex-col justify-around relative z-10">
           <div className="md:cursor-pointer flex flex-col lg:items-start items-center  p-3 lg:w-[30%] w-auto ">
             <img src={Logo} alt="Logo" className="w-[95px]" />
             <div className="font-semibold">Portfolio | Francis Mar Subsilica</div>
@@ -70,7 +70,7 @@ function Footer() {
           </div>
           <div className="flex flex-col items-center lg:w-[35%] w-auto ">
             <div className="font-[grotesk] font-medium text-[32px] mb-2">Socials</div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap lg:flex-row flex-col">
             {Social.map((list) => (
               <ul className="text-center mb-2 mx-1">
                 <li className="">
@@ -84,7 +84,7 @@ function Footer() {
           </div>
        
         </div>
-        <div class="flex justify-start p-5">
+        <div class="flex xl:justify-start lg:justify-start justify-center p-5">
           <div class="">© Copyright 2023 - FM • All rights reserved.</div>
         </div>
       </div>
