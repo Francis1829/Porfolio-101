@@ -17,8 +17,8 @@ function Projects() {
     <>
       <div className="bg-black relative text-white ">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="w-full h-full z-30 lg:p-10 p-7 pt-10">
-          <div className="text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
+        <div className="w-full h-full z-30 lg:p-10 py-7">
+          <div className="text-center lg:text-start font-[satisfy] m-5 pt-10 tracking-wider text-[2.5rem]">
             Projects
           </div>
           <div className=" flex xl:flex-row flex-col justify-center items-center">

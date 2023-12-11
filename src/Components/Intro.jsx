@@ -9,23 +9,23 @@ function Intro() {
 
   const Social = [
     {
-      Icon: <FaFacebookF className="text-[30px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Icon: <FaFacebookF className="text-[2.5rem] text-[#251744] p-1 bg-white border-[#251744]  rounded-md  hover:bg-[#251744] hover:text-white hover:border-white duration-300 ease-in-out border" />,
       Link: "https://www.facebook.com/akofrancisko/",
     },
     {
-      Icon: <AiFillInstagram className="text-[30px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Icon: <AiFillInstagram className="text-[2.5rem] text-[#251744] p-1 bg-white border-[#251744]  rounded-md  hover:bg-[#251744] hover:text-white hover:border-white duration-300 ease-in-out border" />,
       Link: "https://www.instagram.com/cisciretsit/",
     },
     {
-      Icon: <FaLinkedinIn className="text-[30px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Icon: <FaLinkedinIn className="text-[2.5rem] text-[#251744] p-1 bg-white border-[#251744]  rounded-md  hover:bg-[#251744] hover:text-white hover:border-white duration-300 ease-in-out border" />,
       Link: "https://www.linkedin.com/in/francis-mar-subsilica-659b76276/",
     },
     {
-      Icon: <FaTwitter className="text-[30px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Icon: <FaTwitter className="text-[2.5rem] text-[#251744] p-1 bg-white border-[#251744]  rounded-md  hover:bg-[#251744] hover:text-white hover:border-white duration-300 ease-in-out border" />,
       Link: "https://twitter.com/franciskoysssss",
     },
     {
-      Icon: <BsGithub className="text-[30px] text-black p-1 bg-white rounded-md  hover:invert duration-300 ease-in-out border" />,
+      Icon: <BsGithub className="text-[2.5rem] text-[#251744] p-1 bg-white border-[#251744]  rounded-md  hover:bg-[#251744] hover:text-white hover:border-white duration-300 ease-in-out border" />,
       Link: "https://github.com/Francis1829",
     },
   ];
