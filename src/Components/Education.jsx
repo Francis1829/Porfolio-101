@@ -3,13 +3,13 @@ import React from 'react'
 function Education() {
   return (
     <>
-<div className="bg-white text-black mt-20 relative">
+<div className="bg-white text-black relative">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="w-full h-full z-30 lg:p-10 p-7 ">
+        <div className="w-full h-full z-30 lg:p-10 p-7 pt-16">
           <div className="bttn text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
             Education & Work Expercience
           </div>
-          <div className=" flex xl:flex-row flex-col lg:justify-around justify-center font-[grotesk] text-base md:text-lg lg:text-xl xl:items-start items-center">
+          <div className=" flex xl:flex-row flex-col justify-center font-[grotesk] text-base md:text-lg lg:text-xl xl:items-start items-center ">
           <div className='m-1 w-[70%] '>
           <ul className="flex flex-col list-disc m-1 ">
                 <li className='lg:text-2xl text-xl my-2'> Bachelor of Science in Computer Science</li>

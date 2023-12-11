@@ -8,10 +8,10 @@ import Resume from '../Pages/ResumeUpdated.pdf'
 function AboutMe() {
   return (
     <>
-      <div className="bg-white text-black mt-20 relative">
+      <div className="bg-white text-black relative">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
         <div className="w-full h-full z-30 py-7 xl:p-10 lg:p-7 md:p-4 sm:p-2 ">
-          <div className="bttn text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider">
+          <div className="bttn text-center lg:text-start text-3xl font-[satisfy] m-5 tracking-wider pt-10">
             About Me
           </div>
           <div className=" flex xl:flex-row flex-col xl:justify-around justify-center items-center ">

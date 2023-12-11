@@ -32,11 +32,11 @@ function Intro() {
   return (
     <>
       <div className="bg relative top-0 w-full  h-screen z-10 bg-[url('../src/assets/Unsplash5.jpg')] bg-center bg-cover bg-no-repeat">
-        <div className="bg-[#1d1f1d] absolute  w-full h-full opacity-30 -z-10"></div>
+        <div className="bg-white absolute  w-full h-full opacity-50 -z-10"></div>
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
       </div>
       <div className="w-full h-screen absolute lg:top-24 top-12 z-30">
-        <div className=" flex xl:flex-row lg:flex-row flex-col-reverse xl:justify-around justify-center items-center mt-[5rem]">
+        <div className=" flex xl:flex-row lg:flex-row flex-col-reverse justify-center items-center 2xl:mt-[10rem] xl/lg:mt-[5rem] 2xl:ml-[13rem]">
           <div className="flex flex-col justify-center items-center w-auto lg:w-[50%] xl:ml-20 lg:ml-20 m-4">
           <div className="font-[gresan] text-3xl text-[#251744]">FrancisDevs</div>
             <div className="lg:text-lg text-base font-[grotesk] text-center text-white">
