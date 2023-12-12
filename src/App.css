@@ -40,7 +40,8 @@ nav{
 
 
 .scroll{
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.286);
+  backdrop-filter: blur(15px);
   transition: .4s all ease-in-out;
 }
 

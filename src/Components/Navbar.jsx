@@ -51,7 +51,7 @@ const handleClick = () => {
   return (
     <>
     <header className={scroll ? "fixed w-full top-0 font-[grotesk] z-50 scroll" : "fixed w-full top-0 font-[grotesk] z-50"}>
-        <nav className='flex justify-between lg:w-auto w-full items-center lg:px-14 px-2 py-2'>
+        <nav className='flex justify-between lg:w-auto w-full items-center lg:px-14 px-2 py-4'>
         <div
               className="r-menu lg:hidden block"
               onClick={handleClick}
@@ -65,7 +65,7 @@ const handleClick = () => {
             <div className='lg:flex hidden justify-center items-center'>
             {MenuList.map((list, i) => (
                 <ul className='text-white mx-3 text-xl tracking-wide md:cursor-pointer '>
-                    <Link to={list.Paths}><li key={i} className='opacity-75 hover:opacity-100 focus:font-bold font-medium  active:text-[#251744]'>
+                    <Link to={list.Paths}><li key={i} className='opacity-75  active:font-bold font-medium  active:text-[#4d2f8f] hover:text-[#4d2f8f] focus:opacity-100'>
                         {list.Name}
                     </li></Link>
                 </ul>
