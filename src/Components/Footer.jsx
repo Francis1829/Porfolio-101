@@ -63,7 +63,7 @@ function Footer() {
           </div>
         <div className="2xl:text-[6rem] xl/lg:text-[6rem] text-[4rem] font-[grotesk] font-bold after:content-['.'] after:text-[#251744]">Contact</div>
 
-        <div className="text-2xl text-center my-5 leading-8">Shoot me an email if you want to connect! You can also find me on <Link to="https://www.linkedin.com/in/francis-mar-subsilica-659b76276/" className="hover:underline text-[#251744]">Linkedin</Link> or <Link to="https://www.instagram.com/cisciretsit/" className="hover:underline text-[#251744]">Instagram</Link> if that's more your speed.</div>
+        <div className="text-2xl text-center my-5 leading-8">Shoot me an email if you want to connect! You can also find me on <Link to="https://www.linkedin.com/in/francis-mar-subsilica-659b76276/" className="hover:underline text-[#251744] font-semibold">Linkedin</Link> or <Link to="https://www.instagram.com/cisciretsit/" className="font-semibold hover:underline text-[#251744]">Instagram</Link> if that's more your speed.</div>
 
         <div class="flex justify-center items-center text-2xl p-5">     
          <PageMotion>
