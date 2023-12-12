@@ -8,7 +8,7 @@ import EducationF from '../Pages/EducationF';
 function AppRouter() {
   return (
     <>
-    <Routes>
+       <Routes> 
          <Route path="/" exact Component={HomeF } />
           <Route path="/AboutMe" Component={AboutMeF } />
           <Route path="/Projects" Component={ProjectsF} />

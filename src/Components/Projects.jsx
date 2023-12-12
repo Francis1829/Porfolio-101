@@ -11,17 +11,20 @@ import { FaNodeJs } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
 import isabelaco from "../assets/Isebelaco.png";
 import techub from "../assets/techub.png";
+import PageMotion from "../Motions/PageMotion";
 
 function Projects() {
   return (
     <>
       <div className="bg-black relative text-white ">
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="w-full h-full z-30 lg:p-10 py-7">
-          <div className="text-center lg:text-start font-[satisfy] m-5 pt-10 tracking-wider text-[2.5rem]">
+        <div className="w-full h-full flex justify-center items-center z-30 lg:p-10">
+          <div className="container py-10">
+          <div className="text-center lg:text-start font-[satisfy] m-5 2xl:p-0 xl/lg:p-0 pt-10 tracking-wider text-[2.5rem]">
             Projects
           </div>
           <div className=" flex xl:flex-row flex-col justify-center items-center">
+          <PageMotion>
             <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px]  m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project1}
@@ -57,6 +60,8 @@ function Projects() {
                 </div>
               </Link>
             </div>
+            </PageMotion>
+            <PageMotion>
             <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px] m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project2}
@@ -100,6 +105,8 @@ function Projects() {
                 </div>
               </Link>
             </div>
+            </PageMotion>
+            <PageMotion>
             <div className="pic md:cursor-pointer relative flex flex-col lg:items-start items-center w-auto h-[420px] m-5 bg-[#ededed] p-3 rounded-md">
               <img
                 src={Project3}
@@ -133,6 +140,8 @@ function Projects() {
                 </div>{" "}
               </Link>
             </div>
+            </PageMotion>
+          </div>
           </div>
         </div>
       </div>

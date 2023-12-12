@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Logo from '..//assets/LOGO2.png'
-import { IoClose } from "react-icons/io5";
 import { FaBars } from "react-icons/fa6";
 
 function Navbar() {
@@ -65,8 +64,8 @@ const handleClick = () => {
             
             <div className='lg:flex hidden justify-center items-center'>
             {MenuList.map((list, i) => (
-                <ul className='text-white mx-3 text-xl font-medium tracking-wide md:cursor-pointer '>
-                    <Link to={list.Paths}><li key={i} className='opacity-75 hover:opacity-100 active:opacity-100 '>
+                <ul className='text-white mx-3 text-xl tracking-wide md:cursor-pointer '>
+                    <Link to={list.Paths}><li key={i} className='opacity-75 hover:opacity-100 focus:font-bold font-medium  active:text-[#251744]'>
                         {list.Name}
                     </li></Link>
                 </ul>
@@ -79,7 +78,7 @@ const handleClick = () => {
              <div className={`lg:hidden flex flex-col items-center z-50 bg-[url('../src/assets/Bg-theme.png')] bg-black absolute w-full top-0 pl-3 py-10 h-[660px] overflow-y-auto transition-all ${click ? "left-0" : "left-[-100%]"} duration-500`}>
             {MenuList.map((list, i) => (
                 <ul className='text-white my-1 text-xl font-medium tracking-wide md:cursor-pointer '>
-                    <Link to={list.Paths}><li onClick={handleclicks} key={i} className='opacity-75 hover:opacity-100 active:opacity-100'>
+                    <Link to={list.Paths}><li onClick={handleclicks} key={i} className='opacity-75 hover:opacity-100 active:opacity-100 '>
                         {list.Name}
                     </li></Link>
                 </ul>
