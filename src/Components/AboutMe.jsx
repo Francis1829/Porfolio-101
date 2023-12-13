@@ -55,7 +55,7 @@ function AboutMe() {
               </PageMotion>
             </div>
            
-            <div className="ikmg flex flex-col justify-center items-center 2xl:mt-[5rem] xl/lg:mt-[5rem] mt-10 w-full">
+            <div className="ikmg flex flex-col justify-center items-center 2xl:mt-[5rem] xl/lg:mt-[5rem] mt-10 2xl:w-[50%] xl/lg:w-[50%] w-auto">
               <div className="font-[grotesk] font-semibold ">
               <PageMotion>
                 <img src={Percent1} alt="precent" className="w-[550px]" />
