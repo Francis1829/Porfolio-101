@@ -54,34 +54,41 @@ function AboutMe() {
               </div>
               </PageMotion>
             </div>
-            <PageMotion>
+           
             <div className="ikmg flex flex-col justify-center items-center 2xl:mt-[5rem] xl/lg:mt-[5rem] mt-10 w-full">
               <div className="font-[grotesk] font-semibold ">
+              <PageMotion>
                 <img src={Percent1} alt="precent" className="w-[550px]" />
                 <div className="ml-5 text-base mt-2 italic">95%</div>
                 <div className="ml-5 text-base tracking-wide">Logo Design</div>
+                </PageMotion>
               </div>
               <div className="font-[grotesk] font-semibold mt-2 ">
+              <PageMotion>
                 <img src={Percent2} alt="precent" className="w-[550px]" />
                 <div className="ml-5 text-base mt-2 italic">90%</div>
                 <div className="ml-5 text-base tracking-wide">
                   Brand Identity
                 </div>
+                </PageMotion>
               </div>
               <div className="font-[grotesk] font-semibold mt-2 ">
+              <PageMotion>
                 <img src={Percent2} alt="precent" className="w-[550px]" />
                 <div className="ml-5 text-base mt-2 italic">90%</div>
                 <div className="ml-5 text-base tracking-wide">Database</div>
+                </PageMotion>
               </div>
               <div className="font-[grotesk] font-semibold mt-2">
+              <PageMotion>
                 <img src={Percent1} alt="precent" className="w-[550px]" />
                 <div className="ml-5 text-base mt-2 italic">95%</div>
                 <div className="ml-5 text-base tracking-wide">
                   Responsive Design
                 </div>
+                </PageMotion>
               </div>
             </div>
-            </PageMotion>
           </div>
           </div>
         </div>

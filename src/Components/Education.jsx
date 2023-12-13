@@ -31,11 +31,15 @@ function Education() {
                 <div>College of Computing Studies, Information and Communication Technology</div>
                 <div>(May-June 2018)</div>
             </ul>
+            </PageMotion>
+            <PageMotion>
             <ul className=' list-disc '>
                 <li className='lg:text-2xl text-xl my-2'>Hold Down Press Operator</li>
                 <div>Universal Leaf Philippines Inc.</div>
                 <div>(Jan 2021 – Feb 2022)</div>
             </ul>
+            </PageMotion>
+            <PageMotion>
             <ul className=' list-disc '>
                 <li className='lg:text-2xl text-xl my-2'>Virtual Assistant</li>
                 <div>HustleVA</div>

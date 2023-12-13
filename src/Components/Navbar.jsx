@@ -65,7 +65,7 @@ const handleClick = () => {
             <div className='lg:flex hidden justify-center items-center'>
             {MenuList.map((list, i) => (
                 <ul className='text-white mx-3 text-xl tracking-wide md:cursor-pointer '>
-                    <Link to={list.Paths}><li key={i} className='opacity-75  active:font-bold font-medium  active:text-[#4d2f8f] hover:text-[#4d2f8f] focus:opacity-100'>
+                    <Link to={list.Paths}><li key={i} className='opacity-75  active:font-bold font-medium hover:font-semibold  active:text-[#4d2f8f] hover:text-[#4d2f8f] focus:opacity-100'>
                         {list.Name}
                     </li></Link>
                 </ul>
