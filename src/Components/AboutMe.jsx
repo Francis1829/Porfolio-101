@@ -5,15 +5,16 @@ import Me from "../assets/ME2.png";
 import { FaArrowRight } from "react-icons/fa6";
 import Resume from '../Pages/ResumeUpdated.pdf'
 import PageMotion from "../Motions/PageMotion";
+import BrickDrop from "../Motions/BrickDrop";
 
 function AboutMe() {
   return (
     <>
-    
-      <div className="bg-white text-black relative">
+      
+      <div className="bg-white text-black relative">  
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
-        <div className="w-full h-full flex justify-center items-center z-30 py-7 xl:p-10 lg:p-7 md:p-4 sm:p-2 ">
-          <div className="container p-10">
+        <div className="w-full h-full flex justify-center items-center py-7 xl:p-10 lg:p-7 md:p-4 sm:p-2 ">
+          <div className="container p-10 relative z-20">
           <div className="bttn text-center text-[#251744] lg:text-start text-[2.5rem] font-[satisfy]  tracking-wider m-5 2xl:p-0 xl/lg:p-0 pt-10 ">
             About Me
           </div>

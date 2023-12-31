@@ -30,24 +30,6 @@ function PageMotion({children}) {
         >
         {children}
       </motion.div>
-      <motion.div
-            variants={{
-                hide: {right: 0},
-                visible: {right: "100%"},
-            }}
-            initial= "hide"
-            animate={slideControls}
-            transition={{duration: 0.5, ease: "easeIn"}}
-            style={{
-              position: "absolute",
-              top: 4,
-              bottom: 4,
-              left: 0,
-              right: 0,
-              background: "#3f2775",
-              zIndex: 20,
-            }}
-        />
       </div>
     </>
   )

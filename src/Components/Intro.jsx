@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { BsGithub } from "react-icons/bs";
 import PageMotion from "../Motions/PageMotion";
 
+
+
 function Intro() {
 
   const Social = [
@@ -32,7 +34,8 @@ function Intro() {
     },
   ];
   return (
-    <>       
+    <> 
+  
      
       <div className="bg relative top-0 w-full  h-screen z-10 bg-[url('../src/assets/Unsplash5.jpg')] bg-center bg-cover bg-no-repeat">
         <div className="bg-white absolute  w-full h-full opacity-50 -z-10"></div>
@@ -79,7 +82,7 @@ function Intro() {
             </div>
         </div>
       </div>
-
+ 
     </>
   );
 }

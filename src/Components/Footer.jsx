@@ -9,6 +9,7 @@ import { BsGithub } from "react-icons/bs";
 import PageMotion from "../Motions/PageMotion";
 
 
+
 function Footer() {
   const MenuList = [
     {
@@ -76,6 +77,7 @@ function Footer() {
         </div>
         </div>
       </div>
+
     </>
   );
 }
