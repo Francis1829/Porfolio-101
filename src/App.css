@@ -30,7 +30,7 @@ body{
   mask-image: linear-gradient(to top, transparent 20%, black 100%);
 }
 
-.bttn:hover span{
+.bttn:hover span      {
   margin-left: 17px;
   transition: .3s all ease-in-out;
 }
@@ -39,7 +39,7 @@ nav{
 }
 
 
-.scroll{
+.scroll{  
   background-color: rgba(0, 0, 0, 0.286);
   backdrop-filter: blur(15px);
   transition: .4s all ease-in-out;

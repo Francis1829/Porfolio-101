@@ -3,10 +3,11 @@ import Percent1 from "../assets/Percent1.png";
 import Percent2 from "../assets/Percent2.png";
 import Me from "../assets/ME2.png";
 import { FaArrowRight } from "react-icons/fa6";
-import Resume from '../Pages/ResumeUpdated.pdf'
+import Resume from '../Pages/Francis_Resume_Updated_2024_Only.pdf'
 import PageMotion from "../Motions/PageMotion";
 import BrickDrop from "../Motions/BrickDrop";
-
+import Me1 from   "../assets/Me222.jpg"
+import Me2 from   "../assets/Me1.jpg"
 function AboutMe() {
   return (
     <>
@@ -18,17 +19,36 @@ function AboutMe() {
           <div className="bttn text-center text-[#251744] lg:text-start text-[2.5rem] font-[satisfy]  tracking-wider m-5 2xl:p-0 xl/lg:p-0 pt-10 ">
             About Me
           </div>
-              
-          <div className="flex justify-center items-center w-full">  
+          <div className="flex 2xl:flex-row xl/lg:flex-row flex-col justify-around items-center w-full">  
+         
+          <div className="ikmg flex justify-center items-center mt-2 lg:mb-10 md:mb-1 sm:mb-3 ">
           <PageMotion>
+            <img
+              src={Me1}
+              alt=""
+              className="lg:w-[430px] md:w-[380px] w-[330px] rounded-3xl shadow-lg shadow-black/60"
+            />
+            </PageMotion>
+          </div>
           <div className="ikmg flex justify-center items-center lg:mb-10 md:mb-1 sm:mb-3">
+          <PageMotion>
             <img
               src={Me}
               alt=""
               className="lg:w-[330px] md:w-[280px] w-[230px]"
             />
-          </div>
             </PageMotion>
+          </div>
+          <div className="ikmg flex justify-center items-center lg:mb-10 md:mb-1 sm:mb-3">
+          <PageMotion>
+            <img
+              src={Me2}
+              alt=""
+              className="lg:w-[430px] md:w-[380px] w-[330px] rounded-3xl shadow-lg shadow-black/60"
+            />
+        </PageMotion>
+          </div>
+            
           </div>
         
           <div className=" flex xl:flex-row flex-col xl:justify-around justify-center items-center pb-8">

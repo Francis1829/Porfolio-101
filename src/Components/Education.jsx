@@ -18,6 +18,20 @@ function Education() {
           <div className='m-5 w-[70%] '>
             <PageMotion>
           <ul className="flex flex-col list-disc m-1 ">
+                <li className='lg:text-2xl text-xl my-2'> Burgos Central School</li>
+                <div>Caliguain, Burgos, Isabela</div>
+                <div>(2009 – 2011)</div>
+                </ul>
+                </PageMotion>
+                <PageMotion>
+            <ul className="flex flex-col list-disc m-1 ">
+                <li className='lg:text-2xl text-xl my-2'> Caliguian National High School</li>
+                <div>Caliguian, Burgos, Isabela</div>
+                <div>(2011 - 2015)</div>
+                </ul>
+                </PageMotion>
+                <PageMotion>
+           <ul className="flex flex-col list-disc m-1 ">
                 <li className='lg:text-2xl text-xl my-2'> Bachelor of Science in Computer Science</li>
                 <div>Isabela State University - Cauayan Campus</div>
                 <div>(2016 - 2019)</div>
@@ -37,6 +51,13 @@ function Education() {
                 <li className='lg:text-2xl text-xl my-2'>Hold Down Press Operator</li>
                 <div>Universal Leaf Philippines Inc.</div>
                 <div>(Jan 2021 – Feb 2022)</div>
+            </ul>
+            </PageMotion>
+            <PageMotion>
+            <ul className=' list-disc '>
+                <li className='lg:text-2xl text-xl my-2'>Colection Specialist</li>
+                <div>Whelltek Motorcycle Company</div>
+                <div>(May 2022 – September 2022)</div>
             </ul>
             </PageMotion>
             <PageMotion>

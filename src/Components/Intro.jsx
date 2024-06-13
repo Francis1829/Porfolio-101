@@ -37,8 +37,8 @@ function Intro() {
     <> 
   
      
-      <div className="bg relative top-0 w-full  h-screen z-10 bg-[url('../src/assets/Unsplash5.jpg')] bg-center bg-cover bg-no-repeat">
-        <div className="bg-white absolute  w-full h-full opacity-50 -z-10"></div>
+      <div className="bg relative top-0 w-full  h-screen z-10 bg-[url('../src/assets/Unsplash5.jpg')]">
+        <div className="bg-white absolute  w-full h-full opacity-50 z-10"></div>
      
         <div className="bg-[url('../src/assets/Bg-theme.png')] absolute  w-full h-full"></div>
         </div>
@@ -81,7 +81,9 @@ function Intro() {
             <div className="font-[minne] m-0 uppercase text-[2.3rem] md:text-[5.5rem] xl:text-[5.5rem] lg:text-[4rem] xl/lg:-mt-[.5rem] xl:-ml-[7rem] lg:-ml-[1rem] text-white/70">developer</div>
             </div>
         </div>
+        
       </div>
+      
  
     </>
   );
